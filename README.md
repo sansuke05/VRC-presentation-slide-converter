@@ -2,7 +2,7 @@
 
 ## ダウンロード
 
-[こちら]からwindowsの実行ファイルをダウンロードいただけます。
+[こちら](https://github.com/sansuke05/VRC-presentation-slide-converter/releases)からwindowsの実行ファイルをダウンロードいただけます。
 
 ## ライセンス
 
