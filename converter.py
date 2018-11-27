@@ -7,7 +7,7 @@ import utility
 
 def convert(in_dir, out_dir, title):
     index = 0
-    new_dir_path_recursive = 'Resources\\' + title + '\\' + title + 'SliteTexture'
+    new_dir_path_recursive = 'Resources\\' + title + '\\' + title + 'SlideTexture'
     in_dir += '\\'
     out_dir = out_dir + '\\' + new_dir_path_recursive + '\\'
 
