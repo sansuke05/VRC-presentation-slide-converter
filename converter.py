@@ -7,9 +7,9 @@ import utility
 
 def convert(in_dir, out_dir, title):
     index = 1
-    new_dir_path_recursive = 'Resources\\' + title + '\\' + title + 'SlideTexture'
-    in_dir += '\\'
-    out_dir = out_dir + '\\' + new_dir_path_recursive + '\\'
+    new_dir_path_recursive = 'Resources/' + title + '/' + title + 'SlideTexture'
+    in_dir += '/'
+    out_dir = out_dir + '/' + new_dir_path_recursive + '/'
 
     list = glob.glob(in_dir + '*.png')
     print('before')
@@ -42,6 +42,6 @@ def convert(in_dir, out_dir, title):
 
 
 if __name__ == "__main__":
-    in_dir = utility.get_current_path() + '\\VRCLTSlidePic'
-    out_dir = utility.get_current_path() + '\\VRCLTSlidePic'
+    in_dir = utility.get_current_path() + '/VRCLTSlidePic'
+    out_dir = utility.get_current_path() + '/VRCLTSlidePic'
     convert(in_dir, out_dir, 'Test')

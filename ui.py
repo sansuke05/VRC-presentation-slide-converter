@@ -37,8 +37,8 @@ def convert_clicked(self, slide_title):
         return
     self.configure(state=tk.DISABLED)
 
-    in_dir_path = in_dir_path.replace('/','\\')
-    out_dir_path = out_dir_path.replace('/','\\')
+    in_dir_path = in_dir_path.replace('/','/')
+    out_dir_path = out_dir_path.replace('/','/')
     converter.convert(in_dir_path, out_dir_path, slide_title)
     self.configure(state=tk.NORMAL)
     
